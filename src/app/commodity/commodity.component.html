@@ -1,0 +1,11 @@
+<div class="row">
+    <div *ngFor="let commodity of commodities()" class="card" style="width: 18rem; background-color: {{commodity.color}};">
+        <div class="card-body">
+        <img class="logo" src="{{commodity.logo}}" alt="logo">
+          <h5 class="card-title">{{commodity.name}}</h5>
+          <h6 class="card-subtitle mb-2">{{commodity.asset_type_name}}</h6>
+          <p class="card-text">&euro; {{commodity.avg_price}}</p>
+        </div>
+    </div>
+</div>
+

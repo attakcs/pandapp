@@ -1,0 +1,10 @@
+<div class="row">
+    <div *ngFor="let index of indexes()" class="card" style="width: 18rem; background-color: {{index.color}};">
+        <div class="card-body">
+        <img class="logo" src="{{index.logo}}" alt="logo">
+          <h5 class="card-title">{{index.name}}</h5>
+          <h6 class="card-subtitle mb-2">{{index.asset_type_name}}</h6>
+          <p class="card-text">&euro; {{index.avg_price}}</p>
+        </div>
+    </div>
+</div>

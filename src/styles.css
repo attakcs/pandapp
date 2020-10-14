@@ -1,0 +1,16 @@
+body {
+    font-family: 'Courier';
+}
+
+.row {
+    justify-content: space-between;  
+}
+
+.card {
+    margin: 10px;
+}
+
+.logo {
+    margin-bottom: 15px;
+}
+
